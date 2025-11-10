@@ -4,6 +4,7 @@
 
 int sum(int a, int b)
 {
+    //adding 2 number and return
     return(a+b);
 
 }
