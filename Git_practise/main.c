@@ -2,10 +2,17 @@
 #include <stdlib.h>
 
 
+int sum(int a, int b)
+{
+    return(a+b);
+
+}
+
 int main()
 {
     printf("Hello world!\n");
     printf("adding first line after 1st commit\n");
     printf("write function for sum\n");
+    printf("sum result : %d",sum(1,2));
     return 0;
 }
